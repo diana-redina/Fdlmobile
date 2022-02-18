@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Fdlmobile"
+             x:Class="Fdlmobile.TabbedPage1"
+    Title="Главная"
+             BackgroundColor="White">
+
+
+    <StackLayout>
+        <SearchBar x:Name="SearchEntry" TextChanged="SearchEntry_TextChanged"/>
+        <CollectionView  Margin="10" x:Name="CollectionViewMain"
+                SelectionMode="Single" AutomationId="{Binding Product_num}"  ItemsLayout="VerticalGrid, 2"  SelectionChanged="CollectionViewMain_SelectionChanged" 
+                >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="White" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="100"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200" />
+                        </Grid.ColumnDefinitions>
+                        <BoxView Margin="5" CornerRadius="50" Grid.RowSpan="3" Color="	#D3D3D3" />
+                        <Image Margin="0,10,0,0" Grid.Column="0" Grid.Row="0"
+                       Source="{Binding image.Source}"
+                       HeightRequest="170"
+                       WidthRequest="150" VerticalOptions="End" HorizontalOptions="Center" />
+                        <Label Padding="5" WidthRequest="100" FontFamily="Nunito-Bold" Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                       Text="{Binding title}"
+                      />
+                        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Start" WidthRequest="160" FontFamily="Nunito-SemiBoldItalic"
+                       Grid.Column="0" Grid.Row="2"
+                       Text="{Binding price}"
+                       
+                        HorizontalOptions="Center" Margin="0,0,0,20" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
+    
+
+
+    

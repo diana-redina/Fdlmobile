@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\bin\Debug\netstandard2.0\Fdlmobile.deps.json
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\bin\Debug\netstandard2.0\Fdlmobile.dll
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\bin\Debug\netstandard2.0\ref\Fdlmobile.dll
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\bin\Debug\netstandard2.0\Fdlmobile.pdb
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Fdlmobile.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Fdlmobile.AssemblyInfo.cs
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Fdlmobile.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Fdlmobile.dll
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\ref\Fdlmobile.dll
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Fdlmobile.pdb
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Fdlmobile.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\ShopInfo.xaml.g.cs
+C:\Users\User\source\repos\Fdlmobile\Fdlmobile\Fdlmobile\obj\Debug\netstandard2.0\Info_protuct.xaml.g.cs
